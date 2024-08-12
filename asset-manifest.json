@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/download-the-grapevine/static/css/main.b17bd6d9.css",
+    "main.js": "/download-the-grapevine/static/js/main.baf7eb94.js",
+    "static/js/787.ad2391fa.chunk.js": "/download-the-grapevine/static/js/787.ad2391fa.chunk.js",
+    "static/media/האשכול3.png": "/download-the-grapevine/static/media/האשכול3.7dacd7547d11a536d309.png",
+    "static/media/screenshot7.jpg": "/download-the-grapevine/static/media/screenshot7.816d9c18b3464e2c367e.jpg",
+    "static/media/screenshot4.jpg": "/download-the-grapevine/static/media/screenshot4.d147f2c39bce39359564.jpg",
+    "static/media/screenshot6.jpg": "/download-the-grapevine/static/media/screenshot6.4f9a629a7b65ef45f226.jpg",
+    "static/media/screenshot2.jpg": "/download-the-grapevine/static/media/screenshot2.6a97ed49d630bef33b1f.jpg",
+    "static/media/screenshot3.jpg": "/download-the-grapevine/static/media/screenshot3.3d343e347764c2771835.jpg",
+    "static/media/screenshot1.jpg": "/download-the-grapevine/static/media/screenshot1.a8c4c948810fceae8600.jpg",
+    "static/media/screenshot5.jpg": "/download-the-grapevine/static/media/screenshot5.d8932c1204d63c61ef27.jpg",
+    "static/media/comixno2clm_bold-webfont.woff": "/download-the-grapevine/static/media/comixno2clm_bold-webfont.616e65cebeac51ea31f6.woff",
+    "index.html": "/download-the-grapevine/index.html",
+    "main.b17bd6d9.css.map": "/download-the-grapevine/static/css/main.b17bd6d9.css.map",
+    "main.baf7eb94.js.map": "/download-the-grapevine/static/js/main.baf7eb94.js.map",
+    "787.ad2391fa.chunk.js.map": "/download-the-grapevine/static/js/787.ad2391fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b17bd6d9.css",
+    "static/js/main.baf7eb94.js"
+  ]
+}
