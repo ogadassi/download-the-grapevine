@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/download-the-grapevine/static/css/main.9a4cc93f.css",
+    "main.css": "/download-the-grapevine/static/css/main.a8698dc7.css",
     "main.js": "/download-the-grapevine/static/js/main.9ac66886.js",
     "static/js/787.ad2391fa.chunk.js": "/download-the-grapevine/static/js/787.ad2391fa.chunk.js",
     "static/media/האשכול3.png": "/download-the-grapevine/static/media/האשכול3.7dacd7547d11a536d309.png",
@@ -13,12 +13,12 @@
     "static/media/screenshot5.jpg": "/download-the-grapevine/static/media/screenshot5.d8932c1204d63c61ef27.jpg",
     "static/media/comixno2clm_bold-webfont.woff": "/download-the-grapevine/static/media/comixno2clm_bold-webfont.616e65cebeac51ea31f6.woff",
     "index.html": "/download-the-grapevine/index.html",
-    "main.9a4cc93f.css.map": "/download-the-grapevine/static/css/main.9a4cc93f.css.map",
+    "main.a8698dc7.css.map": "/download-the-grapevine/static/css/main.a8698dc7.css.map",
     "main.9ac66886.js.map": "/download-the-grapevine/static/js/main.9ac66886.js.map",
     "787.ad2391fa.chunk.js.map": "/download-the-grapevine/static/js/787.ad2391fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4cc93f.css",
+    "static/css/main.a8698dc7.css",
     "static/js/main.9ac66886.js"
   ]
 }
