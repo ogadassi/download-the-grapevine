@@ -1,5 +1,44 @@
-.Header a {
-  color: rgb(128, 120, 135);
-  text-decoration-line: none;
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.5rem 0;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.Header.scrolled {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+    padding: 0.2rem 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.Header-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-img {
+    height: 80px;
+    width: auto;
+    transition: var(--transition);
+}
+
+.Header.scrolled .header-img {
+    height: 30px;
+}
+
+.header-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--secondary-dark);
+    margin: 0;
+}

@@ -2,11 +2,5 @@
   height: 100%;
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: 78px 85% 5%;
-  border: 1px solid;
-}
-
-main {
-  overflow: auto;
-  padding: 20px;
+  grid-template-rows: 13% 70%;
 }

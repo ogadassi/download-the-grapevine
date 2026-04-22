@@ -1,33 +1,74 @@
+:root {
+  --primary-color: #b9f6ca;
+  --primary-light: #c7f7d4;
+  --primary-dark: #81ac8d;
+  
+  --secondary-color: #b388ff;
+  --secondary-light: #c29fff;
+  --secondary-dark: #7d5fb2;
+  
+  --bg-color: #b7decb;
+  --text-color: #2d3436;
+  --text-muted: #636e72;
+  
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  
+  --transition: all 0.3s ease;
+}
+
 @font-face {
   font-family: eshkol;
   src: url(/src/Assets/fonts/comixno2clm_bold-webfont.woff);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html,
 body,
 #root {
   margin: 0;
+  padding: 0;
   height: 100%;
-  text-align: center;
-  background-color: #b7decb;
-}
-header,
-main {
-  direction: rtl;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Rubik', 'Heebo', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
-  color: #7d5fb2;
-  text-decoration-line: none;
-  font-family: eshkol;
+  color: var(--secondary-dark);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--secondary-color);
 }
 
 .error {
-  color: red;
-  position: absolute;
-  margin-left: 20px;
-  width: 100%;
+  color: #ff7675;
+  font-size: 0.9rem;
+  margin-top: 5px;
 }
+
 ::-webkit-scrollbar {
-  display: none;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-dark);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
 }

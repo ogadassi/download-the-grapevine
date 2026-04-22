@@ -1,6 +1,5 @@
-import Copyrights from "../Copyrights/Copyrights";
+import Home from "../../HomeArea/Home/Home";
 import Header from "../Header/Header";
-import Routing from "../Routing/Routing";
 import "./Layout.css";
 
 function Layout(): JSX.Element {
@@ -11,12 +10,8 @@ function Layout(): JSX.Element {
       </header>
 
       <main>
-        <Routing />
+        <Home />
       </main>
-
-      <footer>
-        <Copyrights />
-      </footer>
     </div>
   );
 }

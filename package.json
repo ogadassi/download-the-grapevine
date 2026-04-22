@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ogadassi.github.io/the-grapevine",
-  "name": "the-grapevine",
+  "homepage": "https://ogadassi.github.io/download-the-grapevine",
+  "name": "download-the-grapevine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,9 +19,11 @@
     "@types/react-redux": "^7.1.33",
     "@types/react-router-dom": "^5.3.3",
     "axios": "^1.6.5",
+    "bootstrap": "^5.3.3",
     "jwt-decode": "^4.0.0",
     "notyf": "^3.10.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.4",
     "react-hook-form": "^7.49.2",

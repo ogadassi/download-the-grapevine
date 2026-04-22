@@ -1,16 +1,15 @@
 .Copyrights {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @font-face {
-    font-family: eshkol;
-    src: url(/src/Assets/fonts/comixno2clm_bold-webfont.woff);
-  }
-  span {
-    color: #7d5fb2;
-    text-decoration-line: none;
-    font-family: eshkol;
-  }
-  
+  font-family: eshkol;
+  src: url(/src/Assets/fonts/comixno2clm_bold-webfont.woff);
+}
+span {
+  color: #7d5fb2;
+  text-decoration-line: none;
+  font-family: eshkol;
+}
