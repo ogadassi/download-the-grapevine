@@ -53,9 +53,30 @@ function Home(): JSX.Element {
             </section>
 
             {/* Features Section */}
-
-
-            {/* Screenshots Section */}
+            <section className="Features">
+                <div className="Features-grid">
+                    <FeatureCard
+                        icon={<RocketLaunchIcon color="secondary" />}
+                        title="מהירות שיא"
+                        description="חווית גלישה חלקה ומהירה ללא פשרות."
+                    />
+                    <FeatureCard
+                        icon={<AutoAwesomeIcon color="secondary" />}
+                        title="תוכן חם"
+                        description="כל האשכולות הכי מעניינים במקום אחד."
+                    />
+                    <FeatureCard
+                        icon={<NotificationsActiveIcon color="secondary" />}
+                        title="התראות בזמן אמת"
+                        description="אל תפספסו שום דבר שקורה בעולם האשכול."
+                    />
+                    <FeatureCard
+                        icon={<PublicIcon color="secondary" />}
+                        title="קהילה תוססת"
+                        description="הצטרפו לאלפי משתמשים שכבר נהנים מהאפליקציה."
+                    />
+                </div>
+            </section>
             <section className="Screenshots">
                 <h3>מבט מקרוב</h3>
                 <Carousel className="carousel" indicators={true} interval={3000}>
